@@ -16,7 +16,7 @@ print(center.c)
 #	print(z)
 
 def find_center():
-	p = Point()
+	p = rectangle()
 	p.x = center.c + center.h/2
 	p.y = center.c + center.w/2
 	return p
